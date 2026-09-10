@@ -1,0 +1,13 @@
+[package]
+name = "defail"
+version = "0.1.1"
+edition = "2021"
+description = "DEFAIL — Deterministic Embedded Failure Addressing Inference Logic"
+license = "MIT"
+repository = "https://github.com/elci-group/defail"
+
+[[bin]]
+name = "defail"
+path = "src/bin/defail.rs"
+
+[dependencies]

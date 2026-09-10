@@ -1,0 +1,13 @@
+diff --git a/dreamsequence-react/src/pages/RepositoryDetail.tsx b/dreamsequence-react/src/pages/RepositoryDetail.tsx
+index 1a24862..49c5cb0 100644
+--- a/dreamsequence-react/src/pages/RepositoryDetail.tsx
++++ b/dreamsequence-react/src/pages/RepositoryDetail.tsx
+@@ -1018,7 +1018,7 @@ type ToolGroup = { key: string; label: string; heading: string; tools: string[]
+ // Analysis is the same closest-fit placement as catskin/bart/wilder.
+ const TOOL_GROUPS_BASE = [
+   { key: "architecture", translationKey: "architecture", tools: ["amber", "fract", "jeenome"] },
+-  { key: "code-review", translationKey: "codeReview", tools: ["chakra", "ferret", "vamos", "traci", "tempcheq", "obserde-compat"] },
++  { key: "code-review", translationKey: "codeReview", tools: ["chakra", "ferret", "vamos", "traci", "tempcheq", "obserde-compat", "defail"] },
+   { key: "compliance", translationKey: "compliance", tools: ["isopod", "lwoodz", "viva-palestina", "crumbled"] },
+   { key: "general", translationKey: "general", tools: ["bart", "wilder", "catskin", "kami"] },
+ ] as const;

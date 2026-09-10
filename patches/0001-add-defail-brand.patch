@@ -1,0 +1,16 @@
+diff --git a/dreamsequence-react/src/lib/uniToolBrand.ts b/dreamsequence-react/src/lib/uniToolBrand.ts
+index c00e8a3..a1021df 100644
+--- a/dreamsequence-react/src/lib/uniToolBrand.ts
++++ b/dreamsequence-react/src/lib/uniToolBrand.ts
+@@ -146,6 +146,11 @@ export const UNI_TOOL_BRAND: Record<string, UniToolBrand> = {
+     primary: "#3A5A40", secondary: ["#588157", "#A3B18A", "#DAD7CD", "#344E41"], neutrals: ["#F6F5F0", "#131A12", "#6E7A65"],
+     backgroundKind: "drift-orbs",
+   },
++  defail: {
++    name: "Defail", tagline: "Deterministic failure addressing.", archetype: ["sentinel", "arbiter", "engineer"],
++    primary: "#1B3A4B", secondary: ["#2A9D8F", "#E9C46A", "#264653", "#E76F51"], neutrals: ["#F4F8F9", "#0B1C26", "#5C7A8A"],
++    backgroundKind: "shake-strain",
++  },
+ };
+ 
+ const FALLBACK_BRAND: UniToolBrand = {
