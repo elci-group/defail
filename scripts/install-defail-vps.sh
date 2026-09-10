@@ -25,7 +25,9 @@ else
 fi
 
 # The payload executed on the VPS
-read -r -d '' REMOTE_SCRIPT << 'REMOTE_EOS'
+# (`|| true`: `read -d ''` returns 1 at heredoc EOF, which `set -e` would
+# treat as fatal — this line is the classic silent-killer without the guard.)
+read -r -d '' REMOTE_SCRIPT << 'REMOTE_EOS' || true
 set -euo pipefail
 echo "[remote] host: $(hostname), user: $(whoami), date: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
 if ! command -v cargo >/dev/null 2>&1; then
