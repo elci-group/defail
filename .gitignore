@@ -2,3 +2,9 @@
 Cargo.lock
 .uni/
 .kaptaind/
+.azusa/
+.lwoodz/
+.traci/
+.orb
+*.log
+.env
